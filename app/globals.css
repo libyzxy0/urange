@@ -164,3 +164,9 @@
     @apply font-sans;
   }
 }
+
+@media (max-width: 768px) {
+  body {
+    zoom: 0.9;
+  }
+}
