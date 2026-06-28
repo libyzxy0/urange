@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={cn("h-full", "antialiased", archivoBlack.variable, "font-sans", space.variable)}
+      className={cn("h-full scroll-smooth", "antialiased", archivoBlack.variable, "font-sans", space.variable)}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
