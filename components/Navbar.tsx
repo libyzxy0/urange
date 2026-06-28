@@ -67,7 +67,7 @@ export function Navbar({ isLanding }: { isLanding?: boolean }) {
 
         {/* mobile hamburger */}
         <Button
-          className="px-1.5 py-1.5 border-b-4 border-r-4 border-black md:hidden"
+          className="px-1.5 py-1.5 md:hidden"
           onClick={() => setIsOpen((prev) => !prev)}
           aria-label={isOpen ? 'Close menu' : 'Open menu'}
         >
@@ -77,7 +77,7 @@ export function Navbar({ isLanding }: { isLanding?: boolean }) {
 
       {/* ── mobile drawer ── */}
       <div
-        className={`md:hidden w-full bg-white border-b-2 border-black overflow-hidden transition-all duration-300 ease-in-out ${
+        className={`md:hidden w-full bg-white overflow-hidden transition-all duration-300 ease-in-out ${
           isOpen ? 'max-h-96 py-6' : 'max-h-0 py-0'
         }`}
       >

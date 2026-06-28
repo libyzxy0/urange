@@ -59,7 +59,7 @@ export default function Landing() {
 
       <section id="home">
         <HeroBackground>
-          <div className="min-h-screen flex flex-row justify-between items-center mx-6 md:mx-24">
+          <div className="min-h-[calc(100dvh+80px)] flex flex-row justify-between items-center mx-6 md:mx-24">
             <div className="max-w-2xl text-center md:text-left">
               <Text className="text-brand font-head text-5xl md:text-6xl leading-12 md:leading-16">
                 <span className="text-black">
